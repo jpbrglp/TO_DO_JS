@@ -1,0 +1,85 @@
+/* Estilo geral */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Input e botão */
+#input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Container de cards */
+#container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+/* Card de tarefa */
+.card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 15px 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card h3 {
+  margin: 0 0 10px;
+  color: #444;
+}
+
+.card p {
+  margin: 0 0 15px;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Botões dentro dos cards */
+.card button {
+  background-color: #007bff;
+  margin: 5px;
+  width: 100px;
+}
+
+.card button:hover {
+  background-color: #0056b3;
+}
