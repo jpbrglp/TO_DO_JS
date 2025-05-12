@@ -32,7 +32,7 @@ function add() {
         localStorage.setItem(tarefaId, novoTexto);
       }
     };
-    title.innerHTML = "Title" + " " + contador;
+    title.innerHTML = "Tarefa" + " " + contador;
     card.appendChild(title);
     card.appendChild(texto);
     card.appendChild(concluir);
@@ -53,7 +53,7 @@ window.onload = function () {
       const textoElement = document.createElement("p");
       const concluir = document.createElement("button");
       const atualizar = document.createElement("button");
-      title.innerHTML = "Title " + chave.split("_")[1];
+      title.innerHTML = "Tarefa " + chave.split("_")[1];
       textoElement.textContent = texto2;
       concluir.textContent = "Concluir";
       atualizar.textContent = "Atualizar";
