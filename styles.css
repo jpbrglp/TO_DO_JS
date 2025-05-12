@@ -1,4 +1,3 @@
-/* Estilo geral */
 body {
   font-family: Arial, sans-serif;
   background-color: #f0f2f5;
@@ -11,7 +10,6 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* Input e botão */
 #input {
   padding: 10px;
   width: 250px;
@@ -37,7 +35,6 @@ button:hover {
   background-color: #45a049;
 }
 
-/* Container de cards */
 #container {
   margin-top: 30px;
   display: flex;
@@ -47,7 +44,6 @@ button:hover {
   align-items: center;
 }
 
-/* Card de tarefa */
 .card {
   background-color: white;
   border-radius: 12px;
@@ -73,7 +69,6 @@ button:hover {
   color: #555;
 }
 
-/* Botões dentro dos cards */
 .card button {
   background-color: #007bff;
   margin: 5px;
