@@ -14,6 +14,6 @@ O programa consiste basicamente em uma lista de tarefas onde vc pode atualizá-l
 ## ⚒️ Tecnologias usadas:
 <div style="display: flex; gap: 20px;">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="80" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" width="100" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="100" />
   <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width="80" />
 </div>
